@@ -1,4 +1,4 @@
-import pytest
+import pytest # type: ignore
 from budget_tracker import BudgetTracker
 
 def test_add_income_and_get_balance():
